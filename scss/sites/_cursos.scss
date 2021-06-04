@@ -1,0 +1,48 @@
+@import "../variables/variables";
+
+/*CURSOS*/ 
+
+.cursos {
+    @include tipo (flex,row,stretch);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    z-index: 5;
+    .course {
+        flex: 0 0 200px;
+        margin: 10px;
+        border: 3px solid $borderColor;
+        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3); 
+        background-color: $backgroundColor;
+        &:hover {transform: scale(1.4);}
+        @media only screen and (max-width: 400px) {
+            z-index: 0;
+        }
+        h3 {
+            font-weight: bold;
+            @media only screen and (max-width: 400px) {
+                font-style: bold;
+                &:hover {transform: none};
+            }
+        }
+        img {
+            max-width: $ancho*2;
+            border: 1px solid black;
+        }
+        .text {
+        padding: 0 20px 20px;
+            .buttonCourse {
+                background-color:$buttonColors;
+                color: white;
+                font-size: 0.8em;
+                border-radius: 4px;
+                border: 2px solid $borderColor;
+                float: center; 
+                &:hover{color: $hoverButton};
+            }
+        }
+    }
+    
+}
+

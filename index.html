@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="../coderfinal/css/style.css">
+    <!--Tipografía-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    
+    <meta name="description" content=""> 
+    <meta name="keywords" content=""> 
+    <title>Discere</title>
+    
+</head>
+
+<body>
+    <header>
+        <a id="linkIndex" href="index.html"> <img class="animated fadeInRight" src="imagenes/discere.PNG"></a>
+        <!--MENU-->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #5DADE2">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="webinars.html">Webinars</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" href="material.html">
+                            Material
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="material.html#podcast">Podcast</a></li>
+                            <li><a class="dropdown-item" href="material.html#videos">Videos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="propuestas.html">Propuestas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"
+                        style="background-image: url(imagenes/busqueda.png)"></button>
+                </form>
+            </div>
+            </div>
+        </nav>
+        <!--CIERRE MENU-->
+    </header>
+    <!--Portada -->
+    <section id="portada">
+        <div class="overlay">
+            <div id="textoInicial">Aprendender nuevas habilidades en un solo lugar</div>
+        </div>
+        <div class="overlayImg"> <img id="imgInicial" src="imagenes/work.jpg" class="img-fluid"
+                alt="estudiando en el escritorio"> </div>
+    </section>
+    <!--Cierre Portada -->
+    <hr>
+    <!--Resumén Página-->
+    <section class="d-flex flex-row justify-content">
+        <div class="p-2">
+            <h3 class="item">Sobre Mi</h3>
+            <img class="resumenImagen" src="imagenes/yo.png" alt="sobre mi">
+            <p>Mi nombre es Carolina y soy Licenciada en Ciencias de la Comunicación, me apasiona la eduación y divulgar
+                conocimientos</p>
+        </div>
+        <div class="p-2">
+            <h3 class="item">Dirigido a docentes de todos los niveles</h3>
+            <img class="resumenImagen" src="imagenes/destinatario.png" alt="público">
+            <ol>
+                <li>Nivel Inicial</li>
+                <li>Nivel Primario</li>
+                <li>Nivel Secundario</li>
+                <li>Nivel Terciario</li>
+                <li>Nivel Universitario</li>
+            </ol>
+        </div>
+        <div class="p-2">
+            <h3 class="item">Gratis y colaborativa</h3>
+            <img class="resumenImagen" src="imagenes/colaborativa.png" alt="manera de trabajar">
+            <p>¡Sumate!</p>
+        </div>
+    </section>
+    <!--Fin Resumén Página-->
+
+    <footer>
+        <!--Footer-->
+        <!--Newsletter-->
+        <section class="footer-newsletter">
+            <h2>Newsletter</h2>
+            <p>Suscribite para recibir las últimas publicaciones</p>
+            <form class="footer-newsletter__form">
+                <div class="footer-newsletter__inputs">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="mail@mail.com">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn__text footer-newsletter__btn">Suscribirme</button>
+                </div>
+            </form>
+        </section>
+        <!--Redes Sociales-->
+        <section class="footerRedes">
+            <a href="https://www.instagram.com"><img class="redes" src="imagenes/instagram.png"></a>
+            <a href="https://www.facebook.com"><img class="redes" src="imagenes/facebook.png"></a>
+            <a href="https://www.twitter.com"><img class="redes" src="imagenes/tw.png"></a>
+            <a href="https://www.youtube.com"><img class="redes" src="imagenes/yt.png"></a>
+            <a href="discere@mail.com.ar"><img class="redes" src="imagenes/email.png"></a>
+        </section>
+        <!--Cierre Footer-->
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

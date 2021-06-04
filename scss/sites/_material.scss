@@ -1,0 +1,25 @@
+@import "../variables/variables";
+
+/*MATERIAL*/
+
+.spotify {
+    @include tipo (flex,row,stretch);
+    flex-wrap: wrap;
+    align-items:stretch;
+    justify-content: space-between;
+    .spotifyplaylist {
+        flex: 0 0 200px;
+        margin: 2%;
+        border-style: solid;
+        border-color: $borderColor;
+    }
+    
+}
+
+.videoRecomendacion {
+    @include tipo (flex,column,none);
+    .linkVideo {
+        &:visited {color: red};
+    }
+}
+

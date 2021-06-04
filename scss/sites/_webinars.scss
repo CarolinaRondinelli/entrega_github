@@ -1,0 +1,18 @@
+@import "../variables/variables";
+
+.hWebinar {
+    padding: 2%;
+}
+
+.tituloWebinar {
+    text-align: center;
+    padding: 2%;
+    background-color: $buttonColors;
+}
+
+iframe {
+    border-style: solid;
+    border-color: $buttonColors;
+    border-width: 2px;
+    text-align: center;
+}

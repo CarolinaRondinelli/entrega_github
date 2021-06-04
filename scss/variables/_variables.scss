@@ -1,0 +1,30 @@
+/*PALETA DE COLORES*/ 
+$backgroundColor: #F0F3F4; 
+$colorTitles: #0772B8;
+$buttonColors: #27ABC4; 
+$hoverButton: #1E8BA0;
+$borderColor: #0772B8;
+$textColor: black;
+$footerColor: #2C3E50;
+/*pensar color nav*/ 
+
+/*TAMAÑOS*/
+$ancho: 50%;
+
+/*FONT FAMILY*/
+$font-family: 'Questrial', sans-serif;
+
+/*DURATIONS*/ 
+$duration: 2s;
+
+/*MIXINS*/ 
+@mixin tamaño($margin, $padding) {
+    margin: $margin;
+    padding:$padding;
+}
+
+@mixin tipo ($display, $flexdirection, $aligncontent) {
+    display:$display;
+    flex-direction: $flexdirection;
+    align-content: $aligncontent;
+}
