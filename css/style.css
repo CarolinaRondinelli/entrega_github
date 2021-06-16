@@ -1,11 +1,4 @@
 
-/*PALETA DE COLORES*/
-/*pensar color nav*/
-/*TAMAÑOS*/
-/*FONT FAMILY*/
-/*DURATIONS*/
-/*MIXINS*/
-/*PORTADA*/
 #portada {
   background-image: url(imagenes/work.jpg);
   position: relative;
@@ -181,13 +174,6 @@ iframe {
   text-align: center;
 }
 
-/*PALETA DE COLORES*/
-/*pensar color nav*/
-/*TAMAÑOS*/
-/*FONT FAMILY*/
-/*DURATIONS*/
-/*MIXINS*/
-/*MATERIAL*/
 .spotify {
   display: flex;
   flex-direction: row;
