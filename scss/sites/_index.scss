@@ -66,10 +66,12 @@
 }
 
 .resumenImagen {
-    height: ($ancho)-30;
+    width: 8rem;
+    margin: 1px;
 }
 
-#d-flex flex-row justify-content {
+
+#row {
     @media only screen and (max-width: 400px) {
         @include tipo (flex,column, space-between); 
     }

@@ -1,4 +1,10 @@
-
+@charset "UTF-8";
+/*PALETA DE COLORES*/
+/*TAMAÑOS*/
+/*FONT FAMILY*/
+/*DURATIONS*/
+/*MIXINS*/
+/*PORTADA*/
 #portada {
   background-image: url(imagenes/work.jpg);
   position: relative;
@@ -71,18 +77,19 @@
 }
 
 .resumenImagen {
-  height: 20%;
+  width: 8rem;
+  margin: 1px;
 }
 
 @media only screen and (max-width: 400px) {
-  #d-flex flex-row justify-content {
+  #row {
     display: flex;
     flex-direction: column;
     align-content: space-between;
   }
 }
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-  #d-flex flex-row justify-content {
+  #row {
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -90,7 +97,6 @@
 }
 
 /*PALETA DE COLORES*/
-/*pensar color nav*/
 /*TAMAÑOS*/
 /*FONT FAMILY*/
 /*DURATIONS*/
@@ -152,7 +158,6 @@
 }
 
 /*PALETA DE COLORES*/
-/*pensar color nav*/
 /*TAMAÑOS*/
 /*FONT FAMILY*/
 /*DURATIONS*/
@@ -174,6 +179,12 @@ iframe {
   text-align: center;
 }
 
+/*PALETA DE COLORES*/
+/*TAMAÑOS*/
+/*FONT FAMILY*/
+/*DURATIONS*/
+/*MIXINS*/
+/*MATERIAL*/
 .spotify {
   display: flex;
   flex-direction: row;
@@ -229,7 +240,6 @@ iframe {
 }
 
 /*PALETA DE COLORES*/
-/*pensar color nav*/
 /*TAMAÑOS*/
 /*FONT FAMILY*/
 /*DURATIONS*/
