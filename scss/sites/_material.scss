@@ -5,7 +5,7 @@
 h2 .titleMaterial {
     @include tipo (flex,column,center);
     text-align: left;
-    margin-top: 20px;
+    margin: 20px;
     padding: 20px;
 }
 
