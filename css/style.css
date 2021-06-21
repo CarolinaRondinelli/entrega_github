@@ -185,6 +185,20 @@ iframe {
 /*DURATIONS*/
 /*MIXINS*/
 /*MATERIAL*/
+h2 .titleMaterial {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: left;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+h3 .informacionMaterial {
+  padding: 20px;
+  text-align: center;
+}
+
 .spotify {
   display: flex;
   flex-direction: row;

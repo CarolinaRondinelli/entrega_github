@@ -2,6 +2,18 @@
 
 /*MATERIAL*/
 
+h2 .titleMaterial {
+    @include tipo (flex,column,center);
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+h3 .informacionMaterial {
+    padding: 20px;
+    text-align: center;
+}
+
 .spotify {
     @include tipo (flex,row,stretch);
     flex-wrap: wrap;
