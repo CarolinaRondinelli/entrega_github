@@ -2,8 +2,14 @@
 
 .sectionPropuesta {
     @include tipo (flex,column,center);
-    text-align: center; 
-    padding: 15px;
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.desarrolloPropuesta {
+    padding: 20px;
+    text-align: center;
 }
 
 .formularioPropuesta {
