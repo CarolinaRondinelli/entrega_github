@@ -1,17 +1,16 @@
-@import "../variables/variables";
-
 /*MATERIAL*/
 
-h2 .titleMaterial {
+h2  {
     @include tipo (flex,column,center);
     text-align: left;
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
-h3 .informacionMaterial {
-    padding: 20px;
-    text-align: center;
+h3 {
+    padding: 10px;
+    margin: 20px;
+    text-align:center;
 }
 
 .spotify {
