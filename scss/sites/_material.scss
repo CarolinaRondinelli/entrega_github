@@ -24,7 +24,7 @@
         border-style: solid;
         border-color: $borderColor;
     }
-    background-color: #E5F0F3;  
+    background-color: $buttonColors;  
     @media only screen and (max-width: 400px) /*MOBILE*/{
         @include tipo (flex, column, center);
     }
@@ -38,9 +38,8 @@
     flex-wrap: wrap;
     align-items:stretch;
     justify-content: space-between;
-    background-color: #E5F0F3; 
+    background-color: $buttonColors; 
     padding: 10px;
-    margin: 10px;
     div {
         animation: fadeInAnimation ease 3s;
         animation-iteration-count: 1;

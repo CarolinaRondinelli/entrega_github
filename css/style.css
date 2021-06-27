@@ -162,21 +162,46 @@
 /*FONT FAMILY*/
 /*DURATIONS*/
 /*MIXINS*/
-.hWebinar {
-  padding: 2%;
+h2 {
+  margin-top: 20px;
+  padding: 20px;
 }
 
 .tituloWebinar {
   text-align: center;
   padding: 2%;
-  background-color: #27ABC4;
 }
 
-iframe {
+.d-flex {
+  background-color: #27ABC4;
+}
+.d-flex iframe {
   border-style: solid;
   border-color: #27ABC4;
   border-width: 2px;
   text-align: center;
+  margin: 10px;
+  width: 560px;
+  height: 315px;
+}
+@media only screen and (max-width: 400px) {
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .d-flex iframe {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
 }
 
 /*MATERIAL*/
@@ -202,7 +227,7 @@ iframe {
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
-  background-color: #E5F0F3;
+  background-color: #27ABC4;
 }
 .spotify .spotifyplaylist {
   flex: 0 0 200px;
@@ -232,9 +257,8 @@ iframe {
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
-  background-color: #E5F0F3;
+  background-color: #27ABC4;
   padding: 10px;
-  margin: 10px;
 }
 .videoRecomendacion div {
   animation: fadeInAnimation ease 3s;
