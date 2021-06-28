@@ -108,7 +108,7 @@
   align-content: stretch;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 10px;
+  margin: 50px;
   padding: 10px;
   z-index: 5;
 }
@@ -120,15 +120,19 @@
   background-color: #F0F3F4;
 }
 .cursos .course:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 @media only screen and (max-width: 400px) {
   .cursos .course {
     z-index: 0;
   }
+  .cursos .course:hover {
+    transform: none;
+  }
 }
 .cursos .course h3 {
   font-weight: bold;
+  padding-top: 5px;
 }
 @media only screen and (max-width: 400px) {
   .cursos .course h3 {
@@ -140,7 +144,7 @@
 }
 .cursos .course img {
   max-width: 100%;
-  border: 1px solid black;
+  border: 3px solid #0772B8;
 }
 .cursos .course .text {
   padding: 0 20px 20px;
@@ -151,7 +155,6 @@
   font-size: 0.8em;
   border-radius: 4px;
   border: 2px solid #0772B8;
-  float: center;
 }
 .cursos .course .text .buttonCourse:hover {
   color: #1E8BA0;
