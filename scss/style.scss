@@ -127,48 +127,29 @@ header {
 
 footer{
     background-color: $footerColor;
-    color: white;
-    display: block;
-    margin: 20px/2;
-    padding: 20px/2;
-    .footer-newsletter {
-        display: block;
-        width:$ancho;
-        height:$ancho;
-        margin: 10px;
-        padding: 10px;
-            button {
-                background-color:$buttonColors;
-                color: white;
-                margin: 5px;
-            }
-    }
     .footerRedes {
         display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-wrap: wrap;
         justify-content: center;
         .redes {
-            width: ($ancho)-30;
-            height: ($ancho)-30;
+            width: 50px;
+            height: 50px;
+            margin: 5px; 
+            padding: 5px;
+            &:hover {
+                transform: scale(2,2);}
             @media only screen and (max-width: 400px) {
-                width: 10%;
-                height: 10%;
-            }
-            @media only screen and (min-width: 401px) and (max-width: 960px) {
-                width: 15%;
-                height: 15%;
-            }
-            @media only screen and (max-width: 400px) {    
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            }
-            @media only screen and (min-width: 401px) and (max-width: 960px) {
-                display: flex;
-                flex-direction: column;
-                align-content: center;  
-            }
+            &:hover {
+                transform:none;
+            }}
         }
     }
+    .copyright {
+        color: white;
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
+
