@@ -1,23 +1,23 @@
 @import "../variables/variables";
 
 h2 {
-    margin-top: 20px;
-    padding: 20px;
+    margin-top: $anchoBajo;
+    padding: $anchoBajo;
 }
 
 .tituloWebinar {
     text-align: center;
-    padding: 2%;
+    padding: $anchoBajo;
 }
 
 .d-flex {
     background-color: $buttonColors;
     iframe {
     border-style: solid;
-    border-color: $buttonColors;
-    border-width: 2px;
+    border-color: $backgroundColor;
+    border-width: ($anchoBajo)-1;
     text-align: center;
-    margin: 10px;
+    margin: $anchoBajo;
     width:560px;
     height:315px;}
     @media only screen and (max-width: 400px) /*MOBILE*/{

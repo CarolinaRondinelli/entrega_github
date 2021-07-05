@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*PALETA DE COLORES*/
 /*TAMAÑOS*/
-/*FONT FAMILY*/
+/*FONT*/
 /*DURATIONS*/
 /*MIXINS*/
 /*PORTADA*/
@@ -24,7 +24,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 2.1em;
+  font-size: 2.2em;
   display: flex;
   align-items: center;
   color: black;
@@ -102,7 +102,7 @@
 
 /*PALETA DE COLORES*/
 /*TAMAÑOS*/
-/*FONT FAMILY*/
+/*FONT*/
 /*DURATIONS*/
 /*MIXINS*/
 /*CURSOS*/
@@ -112,8 +112,8 @@
   align-content: stretch;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 50px;
-  padding: 10px;
+  margin: 50;
+  padding: 10;
   z-index: 5;
 }
 .cursos .course {
@@ -155,7 +155,7 @@
 }
 .cursos .course .text .buttonCourse {
   background-color: #27ABC4;
-  color: white;
+  color: #F0F3F4;
   font-size: 0.8em;
   border-radius: 4px;
   border: 2px solid #0772B8;
@@ -166,12 +166,12 @@
 
 /*PALETA DE COLORES*/
 /*TAMAÑOS*/
-/*FONT FAMILY*/
+/*FONT*/
 /*DURATIONS*/
 /*MIXINS*/
 h2 {
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 2%;
+  padding: 2%;
 }
 
 .tituloWebinar {
@@ -184,10 +184,10 @@ h2 {
 }
 .d-flex iframe {
   border-style: solid;
-  border-color: #27ABC4;
-  border-width: 2px;
+  border-color: #F0F3F4;
+  border-width: 1%;
   text-align: center;
-  margin: 10px;
+  margin: 2%;
   width: 560px;
   height: 315px;
 }
@@ -222,8 +222,8 @@ h2 {
 }
 
 .informacionMaterial {
-  padding: 10px;
-  margin: 10px;
+  margin: 10;
+  padding: 10;
   text-align: center;
 }
 
@@ -305,17 +305,17 @@ h2 {
   flex-direction: column;
   align-content: center;
   text-align: left;
-  margin-top: 20px;
-  padding: 10px;
+  margin-top: 0%;
+  padding: 0%;
 }
 
 .desarrolloPropuesta {
-  padding: 10px;
+  padding: 0%;
   text-align: center;
 }
 
 .formularioPropuesta {
-  background-color: white;
+  background-color: #F0F3F4;
   box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.3);
   border: 2px solid #0772B8;
   border-radius: 4px;
@@ -330,11 +330,11 @@ h2 {
   animation-fill-mode: both;
 }
 .formularioPropuesta .mb-3 {
-  margin: 2px;
-  padding: 4px;
+  margin: 2;
+  padding: 4;
 }
 .formularioPropuesta .btn {
-  color: white;
+  color: #F0F3F4;
   background-color: #27ABC4;
 }
 .formularioPropuesta .btn:hover {
@@ -367,7 +367,7 @@ h2 {
 
 /*PALETA DE COLORES*/
 /*TAMAÑOS*/
-/*FONT FAMILY*/
+/*FONT*/
 /*DURATIONS*/
 /*MIXINS*/
 /*GENERALES*/
@@ -381,7 +381,7 @@ body {
 
 h2 {
   color: #0772B8;
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: bold;
 }
 @media only screen and (max-width: 400px) {
@@ -401,11 +401,6 @@ h2 {
 
 h3 {
   font-size: 1.2em;
-}
-
-hr {
-  height: 2px;
-  background-color: black;
 }
 
 /*Header*/
@@ -513,8 +508,8 @@ footer .footerRedes .redes:hover {
   }
 }
 footer .copyright {
-  color: white;
-  font-size: 10px;
+  color: #F0F3F4;
+  font-size: 0.5em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

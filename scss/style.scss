@@ -8,46 +8,38 @@
 
 /*GENERALES*/ 
 body {
-    font-size: 1em;
-    font-family: $font-family;
+    font-size: $fontSize;
+    font-family: $fontFamily;
     @include tamaño(3,0); 
     background-color: $backgroundColor;
 }
 
 h2 {
     color: $colorTitles;
-    font-size: 2rem;
+    font-size: $fontSize*2;
     font-weight: bold;
     @media only screen and (max-width: 400px) /*MOBILE*/{
-        font-size: 1.5em;
+        font-size: $fontSize*1.5;
         max-width: auto;
         height: auto;
     }
     @media only screen and (min-width: 401px) and (max-width: 960px) /*TABLET*/ {
-        font-size: 1.5em;
+        font-size: $fontSize*1.5;
         max-width: auto;
         height: auto;
     }
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: $fontSize*1.2;
 }
-
-hr {
-    height: 2px;
-    background-color: black;
-}
-
 
 /*Header*/
-
-
 header {
     background-color: white;
     position: -webkit-sticky;
     position: sticky;
-    top: 2%;
+    top: $ancho/25;
     z-index: 3;
     color: $textColor;
     nav {
@@ -63,7 +55,7 @@ header {
                 &:hover {background-color: $backgroundColor}
                 &:hover ul {display:block; }
                     a {
-                        font-size:1em;
+                        font-size:$fontSize;
                         font-weight: 200;
                         text-decoration: none;
                     }
@@ -124,7 +116,6 @@ header {
 }
 
 /*FOOTER*/ 
-
 footer{
     background-color: $footerColor;
     .footerRedes {
@@ -145,8 +136,8 @@ footer{
         }
     }
     .copyright {
-        color: white;
-        font-size: 10px;
+        color:$backgroundColor;
+        font-size: $fontSize/2;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

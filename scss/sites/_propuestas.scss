@@ -3,29 +3,28 @@
 .sectionPropuesta {
     @include tipo (flex,column,center);
     text-align: left;
-    margin-top: 20px;
-    padding: 10px;
+    margin-top: ($anchoBajo)-2;
+    padding: ($anchoBajo)-2;
 }
 
 .desarrolloPropuesta {
-    padding: 10px;
+    padding: ($anchoBajo)-2;
     text-align: center;
 }
 
 .formularioPropuesta {
-    background-color: white;
+    background-color: $backgroundColor;
     box-shadow: 2px 2px 8px 0px  rgba(0,0,0,0.3);
     border: 2px solid $borderColor;
     border-radius: 4px;
     margin: 20px 20px; 
     padding: 50px;
-    font-size: 1em; 
+    font-size: $fontSize; 
     .mb-3 {
-        margin: 2px;
-        padding: 4px;
+        @include tamaño (2,4);
     }
     .btn {
-        color: white; 
+        color: $backgroundColor; 
         background-color:$buttonColors;
         &:hover {background-color: $hoverButton;}
     }
